@@ -1,0 +1,50 @@
+.container{
+    max-width:960px;
+}
+
+.circle{
+    width: 240px;
+    height: 180px;
+    background-color: green;
+    border-radius: 50%  ;
+    float: left;
+    text-align: center;
+   
+   
+  /*  -webkit-animation-name: blinking; /* Chrome, Safari, Opera 
+    -
+    animation-name: example;
+    animation-duration: 3s;*/ 
+   animation: .5s silly infinite alternate;
+    transition: 1s;
+}
+.rect{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 40px auto;
+}
+.recta{
+    width: 150px;
+    height: 150px;
+    color: blue;
+}
+/*@-webkit-keyframes blinking {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}*/
+
+/*.circle:hover{
+    transition: .5s ;
+    background-color: red;
+    border-radius: 50%;
+
+}
+*/
+@keyframes silly{ to {
+    border-radius : 10%;
+    bottom: 100px;
+    background-color: red
+    
+}}
